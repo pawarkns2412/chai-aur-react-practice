@@ -1,11 +1,11 @@
 import ViteFirstCompo from './ViteFirstCompo';
 
 function App() {
- 
+ const companyName = "Sidhman"
 
-  return (
+  return ( 
     <>
-      <h1>"Hello Vite World"</h1>
+      <h1>"Hello Vite World" {companyName}</h1>
       <ViteFirstCompo/>
     </>
   )

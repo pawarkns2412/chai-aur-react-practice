@@ -1,10 +1,12 @@
-import FirstCompo from "./FirstCompo";
+import FirstCompo from "./FirstCompo.jsx";
 
 
-function App() {
+function App() { 
+const username = "Sidhman"
+
   return ( 
     <>
-     <h1> "Hello World" </h1>
+     <h1> "Hello World" {username} </h1>
   <FirstCompo/>
   </>
  
